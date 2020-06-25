@@ -1,10 +1,14 @@
 import React from 'react';
-import './App.css';
+import cards from './components/cards';
+ import styles from './App.module.css';
 
 function App() {
+  
   return (
-    <div className="App">
-      <h1>App</h1>
+    <div>
+    <cards/>
+    <chart/>
+    <countrypicker/>
     </div>
   );
 }
