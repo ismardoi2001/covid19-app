@@ -4,7 +4,7 @@ import React from 'react';
     return (
     
             <h1 > Best chart of the Covid19  chart App </h1>
-            <h2 > Best chart of the Covid19  </h2>
+            
            
     )
 }
