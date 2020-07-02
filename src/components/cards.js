@@ -4,7 +4,6 @@ import React from 'react'
     return (
     
   <h1>Cards</h1>
-  <h4>best cards</h4>
   
     )
 }
