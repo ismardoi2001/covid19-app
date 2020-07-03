@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const card = () => {
+export const  = () => {
     return (
         <div>
-            
+            <h1>best</h1>
         </div>
     )
 }
