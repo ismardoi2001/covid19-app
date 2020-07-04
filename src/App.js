@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
+import NavBar from './components/NavBar';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -20,9 +21,10 @@ function App() {
   
   return (
     <div className={classes.root}>
-    <Paper elevation={3} />
+    <NavBar />
   </div>
   );
+
 }
 
 export default App;
