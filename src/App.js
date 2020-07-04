@@ -2,6 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import NavBar from './components/NavBar';
+import InfoPanel from './components/infoPanel';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -22,6 +23,8 @@ function App() {
   return (
     <div className={classes.root}>
     <NavBar />
+    
+    <InfoPanel />
   </div>
   );
 
