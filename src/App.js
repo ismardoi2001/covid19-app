@@ -16,12 +16,14 @@ const useStyles = makeStyles((theme) => ({
 
 function App() {
   
+  const classes = useStyles();
+  
   return (
-    <div>
-    <cards/>
-    <chart/>
-    <countrypicker/>
-    </div>
+    <div className={classes.root}>
+    <Paper elevation={0} />
+    <Paper />
+    <Paper elevation={3} />
+  </div>
   );
 }
 
